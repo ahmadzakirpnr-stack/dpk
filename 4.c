@@ -41,7 +41,7 @@ int main(void) {
         printf("%4d\n", x[i]);
     }
  
-    /* tampilkan hasil */
+    
     printf("\nHasil c = A x:\n");
     for (i = 0; i < N; i++) {
         printf("c[%d] = %d\n", i, c[i]);

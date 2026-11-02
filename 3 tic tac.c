@@ -22,7 +22,7 @@ void tampilkanPapan(void) {
     printf("     |     |     \n\n");
 }
 
-/* Mengembalikan 1 jika pemain dengan simbol tsb menang */
+
 int cekMenang(char s) {
     int pola[8][3] = {
         {0, 1, 2}, {3, 4, 5}, {6, 7, 8},   /* baris   */
